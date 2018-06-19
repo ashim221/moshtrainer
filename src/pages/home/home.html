@@ -1,17 +1,39 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Personal Trainer Enquiry</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
-</ion-content>
+<ion-content padding="true" class="has-header">
+    <div>
+      <img src="assets/imgs/hSxbPb3DTiqmuJ7f7e6J_logo-1.png" style="display: block; width: 20%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <div class="spacer" style="height: 30px;"></div>
+    <div id="contactMe-markdown1" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:#000000;font-size:16px;">REGISTER FOR YOUR FREE FITNESS
+        <br> CONSULTATION </p>
+    </div>
+    <div class="spacer" style="height: 30px;"></div>
+    <form id="contactMe-form1" class="list">
+      <label class="item item-input" id="contactMe-input2" name="name">
+        <span class="input-label">Name</span>
+        <input type="text" placeholder="name">
+      </label>
+      <label class="item item-input" id="contactMe-input3" name="phone">
+        <span class="input-label">Phone</span>
+        <input type="tel" placeholder="phone">
+      </label>
+      <label class="item item-input" id="contactMe-input4" name="email">
+        <span class="input-label">Email</span>
+        <input type="email" placeholder="email">
+      </label>
+      <label class="item item-input" id="contactMe-input5" name="goal">
+        <span class="input-label">Goal</span>
+        <input type="text" placeholder="goal">
+      </label>
+    </form>
+    <div id="contactMe-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:#000000;font-size:16px;">By registering you accept our Privacy Policy</p>
+    </div>
+    <button id="contactMe-button1" class="button button-positive button-block">Register</button>
+  </ion-content>
